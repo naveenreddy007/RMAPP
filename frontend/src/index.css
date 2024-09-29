@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html{
+  color-scheme: light dark;
+} */
+
+
+
+
+
+body {
+  background: hsla(240, 15%, 9%, 1);
+  background-image: 
+    radial-gradient(at 88% 40%, transparent 85%, hsla(240, 15%, 9%, 1) 0px),
+    radial-gradient(at 49% 30%, transparent 85%, hsla(240, 15%, 9%, 1) 0px),
+    radial-gradient(at 14% 26%, transparent 85%, hsla(240, 15%, 9%, 1) 0px),
+    radial-gradient(at 0% 64%, transparent 85%, hsla(263, 93%, 56%, 1) 0px),
+    radial-gradient(at 41% 94%, transparent 85%, hsla(284, 100%, 84%, 1) 0px),
+    radial-gradient(at 100% 99%, transparent 85%, hsla(306, 100%, 57%, 1) 0px);
+}
